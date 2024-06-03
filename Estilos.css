@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #3342cc, #001527);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    
+}
+
+.icon-link {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    height: 24px;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover, .submenu a:hover {
+background-color: rgb(103, 103, 216);
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section {
+    width: 48%; /* Ajusta el ancho según tu diseño */
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    text-align: center;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 200px; /* Ajusta el tamaño según tu diseño */
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    height: 30px;
+}

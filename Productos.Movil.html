@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altice</title>
+    <link rel="stylesheet" href="Estilooss.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+           <center> <img src="Imagenes/Logo Altice.png" alt="Logo Altice" class="logo"></center>
+        </div>
+        <div class="header-right">
+            <a href="https://www.google.com/maps?q=Altice+principal" class="icon-link">
+                <img src="Imagenes/ubicacion.png" alt="Ubicación" class="icon">
+                <span>Ubicación</span>
+            </a>
+            <a href="login.html" class="icon-link">
+                <img src="Imagenes/Inicia Sesion.png" alt="Inicio de Sesión" class="icon">
+                <span>Mi Altice</span>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Sobre Nosotros.html">Quienes Somos</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+    <header>
+        <h1>Productos</h1>
+        <div class="cart">
+            <span id="cart-count">0</span>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="Carrito">
+        </div>
+    </header>
+    <div class="product-container">
+        <div class="product">
+            <img src="Imagenes/Producto1.jpg" alt="Producto 1">
+           <center> <h3>ALTICE F4 - BLACK, 128MB</h3></center>
+            <p>RD$25.00</p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 2.jpg" alt="Producto 2">
+            <h3>ALTICE S14 - Black, 8GB</h3>
+            <p>RD$4,890.00 </p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 3.jpg" alt="Producto 1">
+            <h3>ALTICE S25 - Black, 32GB</h3>
+            <p>RD$1,090.00</p>
+
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 4.jpg" alt="Producto 1">
+           <center> <h3>ALTICE S34 - Black, 32GB</h3></center>
+            <p>RD$25.00</p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 5.jpg" alt="Producto 1">
+           <center> <h3>ALTICE S35 - Black, 32GB </h3></center>
+            <p>RD$1,889.99</p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 6.jpg" alt="Producto 1">
+           <center> <h3>ALTICE S64</h3></center>
+            <p>RD$2,290.00</p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 7.jpg" alt="Producto 1">
+           <center> <h3>HONOR 90 - Green, 512GB</h3></center>
+            <p>RD$20,790.00 </p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Imagenes/Producto 8.jpg" alt="Producto 1">
+           <center> <h3>HONOR 90 LITE - Blue, 256GB</h3></center>
+            <p>RD$25.00</p>
+            <div class="actions">
+                <button class="cart-button" onclick="addToCart()">
+                    Lo quiero
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let cartCount = 0;
+        function addToCart() {
+            cartCount++;
+            document.getElementById('cart-count').innerText = cartCount;
+        }
+    </script>
+    <br>
+    <br>
+<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/altice" class="social-icon"><img src="Imagenes/simbolo-de-la-aplicacion-de-facebook.png"Facebook"></a>
+        <a href="https://www.twitter.com/altice" class="social-icon"><img src="Imagenes/signo-de-twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/altice" class="social-icon"><img src="Imagenes/logotipo-de-instagram.png" alt="Instagram"></a>
+    </div>
+    </div>
+</footer>
+</body>
+</html>

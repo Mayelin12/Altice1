@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #3342cc, #001527);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    height: 24px;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover, .submenu a:hover {
+background-color: rgb(103, 103, 216);
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    margin-left: 10px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product h3, p{
+    color: black;
+
+}
+
+.product {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.product img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.cart-button img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    height: 30px;
+}

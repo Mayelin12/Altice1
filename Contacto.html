@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estiloo.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+           <center> <img src="Imagenes/Logo Altice.png" alt="Logo Altice" class="logo"></center>
+        </div>
+        <div class="header-right">
+            <a href="https://www.google.com/maps?q=Altice+principal" class="icon-link">
+                <img src="Imagenes/ubicacion.png" alt="Ubicación" class="icon">
+                <span>Ubicación</span>
+            </a>
+            <a href="login.html" class="icon-link">
+                <img src="Imagenes/Inicia Sesion.png" alt="Inicio de Sesión" class="icon">
+                <span>Mi Altice</span>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Sobre Nosotros.html">Quienes Somos</a></li>
+            <li>
+                <a href="Productos.Movil.html">Productos</a>
+            </li>
+        </ul>
+    </nav>
+<br>
+<br>
+<center><h1>Contacto</h1></center>
+
+
+   <center> <div class="contact-form">
+        <h2>Gracias Por Contactarnos </h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Nombre y Apellido</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="id">Cedula</label>
+            <input type="text" id="id" name="id" required>
+
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required>
+
+            <label>Es Cliente Altice?</label><br>
+            <input type="radio" id="yes" name="Altice_customer" value="yes" required>
+            <label for="yes">Si</label>
+            <input type="radio" id="no" name="Altice_customer" value="no" required>
+            <label for="no">No</label><br>
+
+            <label for="subject">Asunto</label>
+            <select name="subject" id="subject">
+                <option value="">Ninguno</option>
+                <option value="billing">Facturacion</option>
+                <option value="technical">Soporte Tecnico</option>
+                <option value="general">General</option>
+            </select>
+
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" rows="4" required></textarea>
+
+
+            <button type="submit">Enviar</button>
+        </form> 
+    </div></center>
+    <br>
+    <br>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/altice" class="social-icon"><img src="Imagenes/simbolo-de-la-aplicacion-de-facebook.png"Facebook"></a>
+            <a href="https://www.twitter.com/altice" class="social-icon"><img src="Imagenes/signo-de-twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/altice" class="social-icon"><img src="Imagenes/logotipo-de-instagram.png" alt="Instagram"></a>
+        </div>            
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>
